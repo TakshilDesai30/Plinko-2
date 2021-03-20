@@ -55,6 +55,8 @@ function draw() {
   text("200",650,550);
   text("200",730,550);
   text("Score: "+score,20,40);
+  
+  Engine.update(engine);
 
   if (gamestate==="END") {
     textFont("Candara");
